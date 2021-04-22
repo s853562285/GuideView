@@ -223,8 +223,8 @@ class MaskView extends ViewGroup {
                 rect.bottom = rect.top + child.getMeasuredHeight();
                 break;
             case LayoutParams.PARENT_CENTER:
-                rect.top = (mTargetRect.width() - child.getMeasuredHeight()) / 2;
-                rect.bottom = (mTargetRect.width() + child.getMeasuredHeight()) / 2;
+                rect.top = (mTargetRect.height() - child.getMeasuredHeight()) / 2;
+                rect.bottom = (mTargetRect.height() + child.getMeasuredHeight()) / 2;
                 rect.offset(0, mTargetRect.top);
                 break;
             case LayoutParams.PARENT_END:
