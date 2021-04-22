@@ -89,8 +89,7 @@ public class SimpleGuideViewActivity extends Activity {
     builder1.setTargetView(ll_video)
             .setAlpha(150)
             .setHighTargetCorner(20)
-            .setHighTargetPadding(10)
-            .setExitAnimationId(android.R.anim.fade_out);
+            .setHighTargetPadding(10);
     builder1.setOnVisibilityChangedListener(new GuideBuilder.OnVisibilityChangedListener() {
       @Override
       public void onShown() {
